@@ -47,7 +47,7 @@
 }
 .banner-img
 {
-	margin: 80px 115px;
+	margin: 80px 85px;
 	width: 60%;
 }
 .banner-img img
@@ -62,7 +62,6 @@
 .banner-title
 {
 	position:absolute;
-	font-size:35px;
 	left: 50%;
 	top: 30%;
 }	
