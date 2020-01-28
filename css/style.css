@@ -9,6 +9,17 @@
     float: right;
     margin-right: 3%;
 }
+.right-menu a
+{
+	color:#000 !important;
+	text-decoration:none !important;
+    font-weight: bold !important;
+    font-size: 20px;
+}
+.right-menu a:hover /*無法加粗，只能換色*/
+{
+	color:#00f !important;
+}
 .right-menu li
 {
 	display: inline-block;
@@ -40,7 +51,14 @@
 .navbar-nav li a  /*選單在收起來會置右*/
 {
     float: right;
-    color: #000 !important;
+	color:#000 !important;
+    padding: 0px 15px !important;
+}
+.navbar-nav a:hover
+{
+    float: right;
+    font-weight:bold;
+    padding: 0px 15px !important;
 }
 .header
 {
