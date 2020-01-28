@@ -1,0 +1,24 @@
+﻿
+/*---------多比商品--------*/
+
+.fashion-blog
+{
+	margin: 250px 0 150px 0;
+}
+.blog-img
+{
+	margin-top: 50px;
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+}
+.blog-img img
+{
+	height: 100%;
+	width: 100%;
+}
+.fashion-blog h5
+{
+	margin-top: 20px;
+	font-weight: bold;
+}
