@@ -23,7 +23,7 @@
 	}
 .subscribe a
 {
-	width: 100px;
+	width: 150px;
 	display:block;
 	color:#fff !important;
 	background:#000;
@@ -60,6 +60,40 @@
     height: 100px;
     margin: 50px auto;
 }
+
+
+/*---------test--------*/
+.btn-buy
+{
+	width: 200px;
+	padding: 10px 0px;
+	outline: none !important;
+	border: 0px;
+	border-radius: 2px;
+	position: absolute;
+	background:#fff;
+ 	left: 50%;
+	bottom: 0px;
+	transform: translate(-50%,0);
+	transition: .6s;
+	opacity: 0;
+	z-index: 1;
+}
+.btn-buy a:any-link 
+{
+    text-decoration: none;
+    color: #000;
+}
+.brand-logo:hover .btn-buy
+{
+	transform: translate(-50%,50%);
+	bottom: 50%;
+	opacity:1;
+}
+
+
+/*---------test over--------*/
+
 .fashion-brands p
 {
     margin-top: 30px;
