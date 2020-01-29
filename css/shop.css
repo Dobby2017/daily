@@ -3,8 +3,7 @@
 
 .fashion-blog
 {
-	margin: 180px 0px 150px 15%;
-    width: 70%
+	margin: 180px 0px 150px 0;
 }
 .blog-img
 {
@@ -16,8 +15,8 @@
 }
 .blog-img img
 {
-	height: 90%;
-	width: 90%;
+	height: 100%;
+	width: 100%;
 }
 .fashion-blog h5
 {
